@@ -239,15 +239,17 @@ header{
   header{
     /*Your code here again.*/
     display: flex;
-    justify-content: right;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/
     display: flex;
-    align-items: end;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
   }
 
   .nav_item a{
