@@ -197,7 +197,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 
 }
 
@@ -206,7 +206,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .nav_item a{
@@ -247,7 +247,7 @@ header{
   .nav_links{
     /*Your code here again.*/
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
     flex-direction: row;
   }
