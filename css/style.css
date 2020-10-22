@@ -86,28 +86,11 @@ footer{
 .pricing{
     min-height: 500px;
     /*Your code here.*/
-    /*Don't forget to vertically and horizontally alight the card
-      display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-  */
-
+    /*Don't forget to vertically and horizontally alight the card*/
   display: flex;
   align-items: center;
   justify-content: center;
-  align-content:center;
-  text-align:center;
-  vertical-align: middle;
-  flex-direction: row;
-
   flex-wrap: wrap;
-  list-style: none;
-  -ms-box-orient: horizontal;
-
-
 }
 
 
@@ -121,8 +104,6 @@ footer{
   /*Your code here.*/
 
   /*Take a look at flex-basis*/
-
-  flex-grow: 1;
   flex-basis: 400px;
 }
 
@@ -171,16 +152,9 @@ footer{
   min-height: 600px;
   /*Your code here again.*/
   display: flex;
-  align-items: center;
   justify-content: center;
-  align-content:center;
-  text-align:center;
-  vertical-align: middle;
-  flex-direction: row;
-
+  align-content:center;   /*come back*/
   flex-wrap: wrap;
-  list-style: none;
-  -ms-box-orient: horizontal;
 }
 
 .gallery > img{
@@ -196,7 +170,6 @@ header{
   /*Your  code here again.*/
   display: flex;
   align-items: center;
-  justify-content: center;
   flex-direction: column;
 
 }
@@ -204,8 +177,6 @@ header{
 .nav_links{
   /*Your code here again.*/
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
 }
 
@@ -238,17 +209,12 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-direction: row;
   }
 
   .nav_links{
     /*Your code here again.*/
-    display: flex;
-    align-items: end;
-    justify-content: space-between;
     flex-direction: row;
   }
 
