@@ -258,15 +258,31 @@ header{
 }
 
 @media print { 
+  header{
+  align-items: center;
+
+}
+
   .card {
     flex-basis: 200px;
-    align-items: flex-start;
-    
   }
   /*Your code here again.*/
-   body{
+  .pricing {
+        align-items: flex-start;
+    
+  }
+  
+  body{
         background-image: none;
     }
+  #gallery, .gallery{
+    display:none;
+  }
+  
+  footer{
+   display:block;
+}
+  
   /*You will want four selectors*/
 }
 
