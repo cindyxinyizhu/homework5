@@ -261,8 +261,12 @@ header{
   .card {
     flex-basis: 200px;
     align-items: flex-start;
+    
   }
   /*Your code here again.*/
+   body{
+        background-image: none;
+    }
   /*You will want four selectors*/
 }
 
